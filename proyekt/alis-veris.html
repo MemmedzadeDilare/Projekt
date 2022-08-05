@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/alis..css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+    <script src="js/alis-veris.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container col-12">
+        <hr>
+        <div>
+            <a class="btn btn-warning" href="index.html">Əsas səhifə</a>
+        </div>
+        <hr>
+
+        <div class="row col-12">
+            <div class="col-3 row1">
+                <input type="text"  id="s" placeholder="seathc">
+                <ul class="category " style="margin-top: 20px;">
+
+                </ul>
+            </div>
+        
+              <div class="spinner-border text-danger d-none sp" role="status"  style="margin-left: 30%;">
+                <div class="loading loading--full-height"></div>
+              </div>
+            <div class="col-9 stock" style="background-image: url(img/bg/paper.gif)">
+
+            </div>
+        </div>
+    </div>
+    <div class="popup d-none" >
+            <div class="modal-content " style="
+            position: absolute;
+            top: 102px;
+            left: 320px;
+            width: 50%;
+            height: 630px;
+        ">
+                <div class="modal-header">
+                    <img id="img" style="width: 170px;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" id="exit">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body p-3">
+                    <p>Ad: <span id="ad"></span></p>
+                    <p>tesviri: <span id="tesvir"></span></p>
+                    <p>qiymet: <span id="qiymet"></span></p>
+                    <p>telefon: <span id="telfon"></span></p>
+                    <p>yeni: <span id="yeni"></span></p>
+                    <p>emeliYaddas: <span id="eyaddas"></span></p>
+                    <p>CPU :<span id="cpu"></span></p>
+                    <p>daimiyaddaş : <span id="dyaddas"></span></p>
+                    <p>daimitipi: <span id="dtip"></span></p>
+                    <p>emeliyyat : <span id="emeliyyat"></span></p>
+                    <p>GPU: <span id="gpu"></span></p>
+                </div>
+            </div>
+        </div> 
+  
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+    
+</body>
+
+</html>
